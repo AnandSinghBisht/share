@@ -49,8 +49,12 @@ public class BinarySearch {
 	public static void main(String[] args) {
 		
 		int x[]={5,3,6,4,5,8,4,1};
+		int arr[] = {2,25,44,3,4,10,40,54};
 		System.out.println(binarySearchRecursive(x,19));
 		System.out.println(binarySerching(x,3));
+		System.out.println(binarySerching(x,25));
+		System.out.println(binarySerching(arr,25));
+		
 		
 	}
 
